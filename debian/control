@@ -1,0 +1,17 @@
+Source: loongbian-keyring
+Priority: optional
+Section: misc
+Maintainer: Boyue Zhang <boyue.zhang@pzhang.net>
+Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 9)
+Vcs-Git: https://github.com/Loongbian/loongbian-keyring
+Vcs-Browser: https://github.com/Loongbian/loongbian-keyring
+
+Package: loongbian-keyring
+Architecture: all
+Provides: loongbian-archive-keyring
+Depends: gnupg, ${misc:Depends}
+Description: GnuPG archive keys of the Loongbian archive
+ The Loongbian project digitally signs its Release files. 
+ This package contains the repository keys used to verify those
+ files.
