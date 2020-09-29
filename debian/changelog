@@ -1,3 +1,9 @@
+loongbian-keyring (2020.8.4+1) unstable; urgency=medium
+
+  * Change priority to important.
+
+ -- Boyue Zhang <boyue.zhang@pzhang.net>  Tue, 29 Sep 2020 23:44:19 +0800
+
 loongbian-keyring (2020.8.4) unstable; urgency=medium
 
   * Initial release.

@@ -1,5 +1,5 @@
 Source: loongbian-keyring
-Priority: optional
+Priority: important
 Section: misc
 Maintainer: Boyue Zhang <boyue.zhang@pzhang.net>
 Standards-Version: 4.3.0
